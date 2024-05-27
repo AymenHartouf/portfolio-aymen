@@ -9,7 +9,7 @@ export const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start pl-6">
             <motion.h1
-              className="pb-16 text-6xl md:text-7xl font-thin tracking-tight lg:mt-16"
+              className="pb-16 text-4xl text-center md:text-start md:text-7xl font-thin tracking-tight lg:mt-16"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: 'easeInOut' }}
